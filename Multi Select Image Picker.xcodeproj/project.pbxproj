@@ -12,6 +12,8 @@
 		A587B1751F7E79C4008A1355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A587B1731F7E79C4008A1355 /* Main.storyboard */; };
 		A587B1771F7E79C4008A1355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A587B1761F7E79C4008A1355 /* Assets.xcassets */; };
 		A587B17A1F7E79C4008A1355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A587B1781F7E79C4008A1355 /* LaunchScreen.storyboard */; };
+		A587B1821F7E7AD5008A1355 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A587B1811F7E7AD5008A1355 /* AlbumModel.swift */; };
+		A587B1841F7E7C9B008A1355 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A587B1831F7E7C9B008A1355 /* PhotoCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A587B1761F7E79C4008A1355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A587B1791F7E79C4008A1355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A587B17B1F7E79C4008A1355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A587B1811F7E7AD5008A1355 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		A587B1831F7E7C9B008A1355 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		A587B16E1F7E79C4008A1355 /* Multi Select Image Picker */ = {
 			isa = PBXGroup;
 			children = (
+				A587B1811F7E7AD5008A1355 /* AlbumModel.swift */,
 				A587B16F1F7E79C4008A1355 /* AppDelegate.swift */,
 				A587B1711F7E79C4008A1355 /* ViewController.swift */,
 				A587B1731F7E79C4008A1355 /* Main.storyboard */,
 				A587B1761F7E79C4008A1355 /* Assets.xcassets */,
 				A587B1781F7E79C4008A1355 /* LaunchScreen.storyboard */,
 				A587B17B1F7E79C4008A1355 /* Info.plist */,
+				A587B1831F7E7C9B008A1355 /* PhotoCollectionViewController.swift */,
 			);
 			path = "Multi Select Image Picker";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A587B1721F7E79C4008A1355 /* ViewController.swift in Sources */,
+				A587B1821F7E7AD5008A1355 /* AlbumModel.swift in Sources */,
 				A587B1701F7E79C4008A1355 /* AppDelegate.swift in Sources */,
+				A587B1841F7E7C9B008A1355 /* PhotoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
