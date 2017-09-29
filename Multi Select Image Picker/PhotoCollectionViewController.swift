@@ -24,6 +24,7 @@ class PhotoCollectionViewController: UIViewController, UICollectionViewDelegate,
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = selectedAlbum.name
     }
     
     override func viewWillAppear(_ animated: Bool) {

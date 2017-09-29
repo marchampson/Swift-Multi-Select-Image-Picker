@@ -61,11 +61,11 @@
 				A587B1811F7E7AD5008A1355 /* AlbumModel.swift */,
 				A587B16F1F7E79C4008A1355 /* AppDelegate.swift */,
 				A587B1711F7E79C4008A1355 /* ViewController.swift */,
+				A587B1831F7E7C9B008A1355 /* PhotoCollectionViewController.swift */,
 				A587B1731F7E79C4008A1355 /* Main.storyboard */,
 				A587B1761F7E79C4008A1355 /* Assets.xcassets */,
 				A587B1781F7E79C4008A1355 /* LaunchScreen.storyboard */,
 				A587B17B1F7E79C4008A1355 /* Info.plist */,
-				A587B1831F7E7C9B008A1355 /* PhotoCollectionViewController.swift */,
 			);
 			path = "Multi Select Image Picker";
 			sourceTree = "<group>";
